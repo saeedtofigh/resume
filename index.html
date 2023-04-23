@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>رزومه سعید توفیق</title>
+	<!-- لینک استایل بوت استرپ 5 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/css/bootstrap.min.css" integrity="sha512-..."/>
+	<style>
+        @import url('https://cdn.alochekup.com/fontstyle.css');
+        body{
+            direction: rtl;
+            font-family: 'iranyekan';
+
+        }
+		/* استایل بخش هدر */
+		.header {
+			background-color: #007bff;
+			color: #fff;
+			padding: 50px 0;
+			text-align: center;
+		}
+		.header h1 {
+			font-size: 48px;
+			margin-bottom: 20px;
+		}
+		.header p {
+			font-size: 24px;
+			margin-bottom: 0;
+		}
+		/* استایل بخش تجربیات شغلی */
+		.experience {
+			margin-top: 50px;
+		}
+		.experience h2 {
+			font-size: 36px;
+			margin-bottom: 30px;
+		}
+		.experience ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+		.experience li {
+			margin-bottom: 20px;
+			position: relative;
+			padding-right: 40px;
+		}
+		.experience li::before {
+			content: "";
+			position: absolute;
+			right:  0;
+			top: 6px;
+			width: 20px;
+			height: 20px;
+			border-radius: 50%;
+			background-color: #007bff;
+		}
+		/* استایل بخش مهارت ها */
+		.skills {
+			margin-top: 50px;
+		}
+		.skills h2 {
+			font-size: 36px;
+			margin-bottom: 30px;
+		}
+		.skills ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+		.skills li {
+			margin-bottom: 20px;
+		}
+		.skills li span {
+			display: block;
+			font-size: 20px;
+			margin-bottom: 10px;
+		}
+		/* استایل بخش پروژه ها */
+		.projects {
+			margin-top: 50px;
+		}
+		.projects h2 {
+			font-size: 36px;
+			margin-bottom: 30px;
+		}
+		.projects ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+		.projects li {
+			margin-bottom: 20px;
+		}
+		.projects li a {
+			font-size: 20px;
+			color: #007bff;
+			text-decoration: none;
+			transition: color .3s;
+		}
+		.projects li a:hover {
+			color: #0056b3;
+		}
+	</style>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<h1>سعید توفیق</h1>
+			<p>تخصص: برنامه نویس لاراول</p>
+			<p>تلفن: 09123456789</p>
+			<p>آدرس: اردبیل</p>
+		</div>
+	</header>
+	<section class="experience">
+		<div class="container">
+			<h2>تجربیات شغلی</h2>
+			<ul>
+				<li>شرکت عقاب های دیجیتال، 1398-1400</li>
+				<li>آکواتیم، 1401-کنون</li>
+				<li>الوچکاپ، 1401-کنون</li>
+			</ul>
+		</div>
+	</section>
+    <hr>
+
+	<section class="skills">
+		<div class="container">
+			<h2>مهارت ها</h2>
+			<ul>
+				<li>
+					<span>Laravel</span>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">80%</div>
+					</div>
+				</li>
+				<li>
+					<span>PHP</span>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">90%</div>
+					</div>
+				</li>
+				<li>
+					<span>HTML/CSS/Sass</span>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+					</div>
+				</li>
+				<li>
+					<span>Git</span>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+					</div>
+				</li>
+				<li>
+					<span>MySQL</span>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+    <hr>
+	<section class="projects">
+		<div class="container">
+			<h2>پروژه ها</h2>
+			<ul>
+				<li><a href="#">سایت فروشگاهی</a></li>
+			</ul>
+		</div>
+	</section>
+</body>
+</html>
